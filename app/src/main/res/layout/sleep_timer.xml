@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#131313"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        android:text="Set Sleep Timer"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_5_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="5 minutes"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_10_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="10 minutes"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_20_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="20 minutes"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_30_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="30 minutes"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_1_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="1 hour"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_2_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="2 hours"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3F3F3F" />
+
+    <TextView
+        android:id="@+id/tv_3_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:text="3 hours"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>
